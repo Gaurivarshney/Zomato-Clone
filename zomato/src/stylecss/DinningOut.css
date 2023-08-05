@@ -1,0 +1,71 @@
+.heading-collection{
+    color: #1c1c1c;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 32px;
+}
+.heading-subtitle{
+    display: flex;
+    justify-content: space-between;
+    color: #363636;
+    font-size: 18px;
+}
+.heading-subtitle .second-span{
+    color: #FF7E8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dinning-slider{
+    padding: 14px 0;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.dinning-slider-2 .dinning-img{
+    height: 320px;
+width: 247px;
+border-radius: 6px;
+ box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+ background-color: rgb(255, 255, 255);
+ position: relative;
+ 
+ 
+}
+.gradient-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+    left: 0;
+    top: 0;
+    border-radius: 6px;
+ 
+}
+.dinning-slider-2  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dinning-places{
+    position: absolute;
+    bottom: 1rem;
+    margin: 3px 0px 10px;
+    padding: 0 16px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    z-index: 9999;
+}
+.dinning-title{
+    font-size: 18px;
+    padding: 0 16px;
+    position: absolute;
+    bottom: 3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-weight: 500;
+    z-index: 9999;
+}

@@ -1,0 +1,95 @@
+.header{
+    width: 100%;
+    margin-bottom:12px ;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.header-logo{
+    max-width: 140px;
+    height: 27px;
+    margin-right: 24px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+   
+}
+.header-right .header-right-wrapper{
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    width: 42rem;
+    background: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+
+    
+}
+.header-right .header-right-wrapper .header-location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 10px;
+    color: #828282;
+   
+}
+.location-icon{
+    color: rgb(230, 104, 104);
+    font-size: 20px;
+    /* margin-right: 8px; */
+}
+.separater{
+    height: 22px;
+    border: 1px solid grey;
+    
+}
+.header-right .header-right-wrapper .header-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+.search-icon{
+    color: #828282;
+    margin: 0 10px;
+    font-size: 20px;
+    /* position: relative;
+    right: 6.5rem; */
+}
+.input-text{
+    width: 100%;
+    height: 3rem;
+    border: none;
+}
+.input-text::placeholder{
+    font-size: 16px;
+    color: #828282;
+}
+.arrow-drop{
+    color: black;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-left: 100px;
+}
+.login .login-image img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.login-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-arrow{
+    color: black;
+    margin-top: 5px;
+}

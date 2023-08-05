@@ -1,0 +1,21 @@
+.max-width{
+    max-width: 1100px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.absolute-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-next:before, .slick-prev:before{
+    color: grey;
+    font-size: 30px;
+    /* margin-left: 20px; */
+} 
+.slick-prev{
+    left: -67px;
+}
+.last-footer{
+    background-color: #f8f8f8;
+}

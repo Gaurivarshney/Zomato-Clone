@@ -1,0 +1,14 @@
+.filter-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #9c9c9c ;
+    border-radius: 5px;
+    color: #9c9c9c;
+}
+.filter-icon, .time-icon{
+    font-size: 2px;
+    margin-right: 5px;
+}

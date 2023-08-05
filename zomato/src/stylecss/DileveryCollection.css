@@ -1,0 +1,72 @@
+.collection-heading{
+    color: #1c1c1c;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 32px;
+}
+.dileveryCollection{
+    padding: 40px 0;
+  background-color: #f8f8f8;
+  
+}
+explore-section{
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+.top-brands-heading{
+    color: #1c1c1c;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 32px;
+}
+.top-brands{
+    padding: 40px 0;
+}
+.Slider-items .slider-img{
+height: 190px;
+width: 260px;
+border-radius: 8px;
+ box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+ background-color: rgb(255, 255, 255);
+}
+.slider-img img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.Slider-items .slider-title{
+    color: #363636;
+    margin: 6px 0 0;
+    padding: 0 16px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center  ;
+}
+.brands-slider .brands-img{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+background-color: rgb(255, 255, 255);
+}
+.brands-slider .brands-img .brands-cover{
+/* border-radius: inherit; */
+object-fit: cover;
+height: 100%;
+width: 100%;
+text-align: center;
+border-radius: inherit;
+box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+background-color: rgb(255, 255, 255);
+}
+.brands-title{
+    color: #363636;
+    margin: 6px 0 0;
+    padding: 5px 16px 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center 
+}
+.brands-time{
+    padding-left: 3.5rem;
+}
